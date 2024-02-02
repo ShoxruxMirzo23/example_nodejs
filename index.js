@@ -24,11 +24,11 @@ Account.tellMeTime();
 
 console.log("==================");
 
-const myAccount = new Account("Shoxrux,200000, 97455485485554");
+const myAccount = new Account("Shoxrux", 200000, 97455485485554);
 myAccount.giveMeDetails();
 
 myAccount.makeDeposit(1000000);
 
 //Mercedes cls 2.4 mln
-//myAccount.withdrawMoney(400000);
-//myAccount.makeDeposit(200000);
+myAccount.withdrawMoney(400000);
+myAccount.makeDeposit(200000);
